@@ -1,4 +1,4 @@
-#Visible Light Communication
+# Visible Light Communication
  What if even visible light could be used to transmit and receive data wirelessly? We developed a prototype that could do exactly that. Imagine the number of light sources around you, which is far greater than the number of radio base stations. We can use them for communication without defying their primary purpose that is illumination.
 
  Li-Fi.ino is a module which implements the concept using Arduino's.In this project we can communicate between two laptops via serial monitors. 
