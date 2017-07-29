@@ -7,7 +7,7 @@
  We used two arduino microcontrollers, one acts as a transmitter and the other as a receiver. Transmitter module consists of an inexpensive led which is connected to pin 22 of Arduino Due microcontroller. Receiver module consists of a LDR (Light Dependent Resistor : when light intensity is low the resistance offered is high compared to when light intensity is high) connected to analog pin A1.
 
 ## Process
-####Transmitter 
+#### Transmitter 
 1. Whatever we type on serial monitor is read using inbuilt Serial.readstring() function.
 2. The string is then sent to send_data() function which converts them to bits.
 3. The sending packet consists of 8 bit starting pattern (10011001) so that reciever can acknowledge that data is to be recieved. 
@@ -21,7 +21,7 @@
         0: Led is first switched off for given duration and then turned on for the same duration (i.e 0 is represented as `LOW-HIGH`)
 6. The message transmitted is then shown on the serial monitor of transmitter.
 
-####Receiver
+#### Receiver
 1. The analog pin A1 is continously polled at a fixed duration and the analog value (0-1024) is averaged over 24 readings to get the threshold (i.e. room light intensity).
 2. If the measured value is more then threshold it is recorded as 1 whereas if it is less than room intensity it is recorded as 0.
 3. The recieved bit pattern is continously compared with starting bit pattern. If there is a match, subsequent 16 readings taken is considered as message bits.
