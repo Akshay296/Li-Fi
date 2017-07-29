@@ -4,7 +4,7 @@
  Li-Fi.ino is a module which implements the concept using Arduino's.In this project we can communicate between two laptops via serial monitors. 
  
 ## Setup
- We used two arduino microcontrollers, one acts as a transmitter and the other as a receiver. Transmitter module consists of an inexpensive led which is connected to pin 22 of Arduino Due microcontroller. Receiver module consists of a LDR (Light Dependent Resistor : when light intensity is low the resistance offered is high compared to when light intensity is high) connected to analog pin A1. 
+ We used two arduino microcontrollers, one acts as a transmitter and the other as a receiver. Transmitter module consists of an inexpensive led which is connected to pin 22 of Arduino Due microcontroller. Receiver module consists of a LDR (Light Dependent Resistor : when light intensity is low the resistance offered is high compared to when light intensity is high) connected to analog pin A1.
 
 ## Process
 ####Transmitter 

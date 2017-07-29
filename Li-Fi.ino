@@ -1,4 +1,4 @@
-// Pin for transmitting light through LED
+ // Pin for transmitting light through LED
 const int data = 22;
 // String to be sent
 String myText ;
